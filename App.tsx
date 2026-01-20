@@ -115,8 +115,11 @@ const App: React.FC = () => {
       
       {/* Footer */}
       <footer className="border-t border-slate-900 bg-background py-8 mt-12">
-        <div className="max-w-7xl mx-auto px-4 text-center text-slate-600 text-sm">
+        <div className="max-w-7xl mx-auto px-4 text-center text-slate-600 text-sm flex flex-col items-center gap-3">
           <p>&copy; {new Date().getFullYear()} InsightFlow. Local & Secure Data Processing.</p>
+          <p className="font-medium text-slate-500 bg-slate-900/50 px-4 py-2 rounded-full border border-slate-800">
+            Proudly made by NU ITCS students in Egypt <span className="ml-1">🇪🇬</span>
+          </p>
         </div>
       </footer>
     </div>
